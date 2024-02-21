@@ -1,4 +1,13 @@
-int(input("1"))
-int(input("2"))
-int(input("3"))
-print(find_min(1,2,3))
+a = 2
+b = 4
+c = 6
+
+if a < b and a < c:
+    print("a min")
+if b < a and b < c:
+    print("b min")
+if c < b and c < a:
+    print("c min")
+
+    
+    
