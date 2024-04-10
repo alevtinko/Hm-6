@@ -1,6 +1,9 @@
-slovo = str(input())
-a = slovo[::-1]
-if slovo == a:
-  print("yes")
+word = 'alevtina'
+new_word = ''
+for a in word:
+    new_word = a + new_word
+
+if new_word == word:
+    print('palindrome')
 else:
-  print("no")
+    print(f'word = {word} is not palindrome')
